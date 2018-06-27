@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{53FDF647-84B4-4247-A07C-093B7E873174}</ProjectGuid>
+    <RootNamespace>MCIPlayer</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>14.0.25431.1</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Source and Header\AddListImageButtonWndProc.cpp" />
+    <ClCompile Include="Source and Header\AllDeleteImageButtonWndProc.cpp" />
+    <ClCompile Include="Source and Header\CloseCopyrightImageButtonWndProc.cpp" />
+    <ClCompile Include="Source and Header\ClosePlayListImageButtonWndProc.cpp" />
+    <ClCompile Include="Source and Header\CloseWindowImageButtonWndProc.cpp" />
+    <ClCompile Include="Source and Header\CopyrightWndProc.cpp" />
+    <ClCompile Include="Source and Header\CreateChildButton.cpp" />
+    <ClCompile Include="Source and Header\CustomButtonImageDoubleBuffering.cpp" />
+    <ClCompile Include="Source and Header\DeleteListImageButtonWndProc.cpp" />
+    <ClCompile Include="Source and Header\FloatingPopupMenuCall.cpp" />
+    <ClCompile Include="Source and Header\GlassImageButtonWndProc.cpp" />
+    <ClCompile Include="Source and Header\LoadListImageButtonWndProc.cpp" />
+    <ClCompile Include="Source and Header\MainWndProc.cpp" />
+    <ClCompile Include="Source and Header\MakerLogoImageWndProc.cpp" />
+    <ClCompile Include="Source and Header\MciClose.cpp" />
+    <ClCompile Include="Source and Header\MciGetPlayPosition.cpp" />
+    <ClCompile Include="Source and Header\MciGetVolume.cpp" />
+    <ClCompile Include="Source and Header\MciOpen.cpp" />
+    <ClCompile Include="Source and Header\MciPlay.cpp" />
+    <ClCompile Include="Source and Header\MciSetPlayPositionSelectToScroll.cpp" />
+    <ClCompile Include="Source and Header\MciSetVolume.cpp" />
+    <ClCompile Include="Source and Header\MinimizeWindowImageButtonWndProc.cpp" />
+    <ClCompile Include="Source and Header\NextTrackSelectImageButtonWndProc.cpp" />
+    <ClCompile Include="Source and Header\NotifyIconDataCall.cpp" />
+    <ClCompile Include="Source and Header\OpenFileNameDialogCall.cpp" />
+    <ClCompile Include="Source and Header\PlayListCallImageButtonWndProc.cpp" />
+    <ClCompile Include="Source and Header\PlayListWndProc.cpp" />
+    <ClCompile Include="Source and Header\PlayOrPauseImageButtonWndProc.cpp" />
+    <ClCompile Include="Source and Header\PlayTimePrintStatic.cpp" />
+    <ClCompile Include="Source and Header\PrevTrackSelectImageButtonWndProc.cpp" />
+    <ClCompile Include="Source and Header\ProgramLogoImageWndProc.cpp" />
+    <ClCompile Include="Source and Header\RepeatImageButtonWndProc.cpp" />
+    <ClCompile Include="Source and Header\SaveListImageButtonWndProc.cpp" />
+    <ClCompile Include="Source and Header\SetScrollValueUseMaxFunction.cpp" />
+    <ClCompile Include="Source and Header\SetScrollValueUseMinFunction.cpp" />
+    <ClCompile Include="Source and Header\StateChangeToPlayOrPause.cpp" />
+    <ClCompile Include="Source and Header\StopImageButtonWndProc.cpp" />
+    <ClCompile Include="Source and Header\VersionImageButtonWndProc.cpp" />
+    <ClCompile Include="Source and Header\WinMain.cpp" />
+    <ClCompile Include="Source and Header\WndLayerTransparentOnOff.cpp" />
+    <ClCompile Include="Source and Header\WrapperMusicFilePlayFuction.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="Source and Header\Headers\Functions\FileHandlingFunctions.h" />
+    <ClInclude Include="Source and Header\Headers\Functions\GraphicFunctions.h" />
+    <ClInclude Include="Source and Header\Headers\Functions\MCIFunctions.h" />
+    <ClInclude Include="Source and Header\Headers\Functions\MCIPlayRelatedFunctions.h" />
+    <ClInclude Include="Source and Header\Headers\Functions\MenuRelatedFunctions.h" />
+    <ClInclude Include="Source and Header\Headers\Functions\ShellRelatedFunctions.h" />
+    <ClInclude Include="Source and Header\Headers\Functions\TemporaryFunctions.h" />
+    <ClInclude Include="Source and Header\Headers\Functions\WrapperFunctions.h" />
+    <ClInclude Include="Source and Header\Headers\HeaderCollect.h" />
+    <ClInclude Include="Source and Header\Headers\VariableCollect.h" />
+    <ClInclude Include="Source and Header\Headers\WndProcs\CopyrightWndProcs.h" />
+    <ClInclude Include="Source and Header\Headers\WndProcs\MainWndProcs.h" />
+    <ClInclude Include="Source and Header\Headers\WndProcs\PlayListWndProcs.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="MCI Player.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
