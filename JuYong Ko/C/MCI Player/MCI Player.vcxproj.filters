@@ -1,0 +1,230 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\MainWndProcs">
+      <UniqueIdentifier>{b854881f-5c9a-4c1a-88ff-af7b34b28772}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\CopyrightWndProcs">
+      <UniqueIdentifier>{87a5cce7-fa21-4ba1-a08d-c1a36640069b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Shell Related Functions">
+      <UniqueIdentifier>{ed6de573-477e-4ae1-a958-d9a444b44d6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\FileHandling Functions">
+      <UniqueIdentifier>{0c087edd-b3df-411c-9b9c-5f37ebc679e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Graphic Functions">
+      <UniqueIdentifier>{5642d6d0-10ab-40fa-b3b0-15240fce30db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\MCI Functions">
+      <UniqueIdentifier>{47fff1e1-3561-46a5-a996-cb5a231d8822}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\MCI Play Related Functions">
+      <UniqueIdentifier>{d13aee4c-ccc3-463d-9d2d-0d4a917d26eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\PlayListWndProcs">
+      <UniqueIdentifier>{b2f2530f-b51f-450f-b5c0-533a6e0a4e00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Wrapper Functions">
+      <UniqueIdentifier>{6b60c6e7-9fc2-4051-86be-840fccd4d3d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Menu Related Functions">
+      <UniqueIdentifier>{4d61fa84-d313-455d-a185-e115764e3836}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Temporary Functions">
+      <UniqueIdentifier>{209de0c5-c2f9-4d00-86ac-803583358cf3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일\WndProcs">
+      <UniqueIdentifier>{605f5416-5371-420f-bc59-9b1cfc09ccb8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Functions">
+      <UniqueIdentifier>{da8b0757-34db-488b-8610-3e2686bba27e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source and Header\WinMain.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Source and Header\CloseWindowImageButtonWndProc.cpp">
+      <Filter>소스 파일\MainWndProcs</Filter>
+    </ClCompile>
+    <ClCompile Include="Source and Header\GlassImageButtonWndProc.cpp">
+      <Filter>소스 파일\MainWndProcs</Filter>
+    </ClCompile>
+    <ClCompile Include="Source and Header\MainWndProc.cpp">
+      <Filter>소스 파일\MainWndProcs</Filter>
+    </ClCompile>
+    <ClCompile Include="Source and Header\MinimizeWindowImageButtonWndProc.cpp">
+      <Filter>소스 파일\MainWndProcs</Filter>
+    </ClCompile>
+    <ClCompile Include="Source and Header\NextTrackSelectImageButtonWndProc.cpp">
+      <Filter>소스 파일\MainWndProcs</Filter>
+    </ClCompile>
+    <ClCompile Include="Source and Header\PlayListCallImageButtonWndProc.cpp">
+      <Filter>소스 파일\MainWndProcs</Filter>
+    </ClCompile>
+    <ClCompile Include="Source and Header\PlayOrPauseImageButtonWndProc.cpp">
+      <Filter>소스 파일\MainWndProcs</Filter>
+    </ClCompile>
+    <ClCompile Include="Source and Header\PrevTrackSelectImageButtonWndProc.cpp">
+      <Filter>소스 파일\MainWndProcs</Filter>
+    </ClCompile>
+    <ClCompile Include="Source and Header\RepeatImageButtonWndProc.cpp">
+      <Filter>소스 파일\MainWndProcs</Filter>
+    </ClCompile>
+    <ClCompile Include="Source and Header\StopImageButtonWndProc.cpp">
+      <Filter>소스 파일\MainWndProcs</Filter>
+    </ClCompile>
+    <ClCompile Include="Source and Header\VersionImageButtonWndProc.cpp">
+      <Filter>소스 파일\MainWndProcs</Filter>
+    </ClCompile>
+    <ClCompile Include="Source and Header\CloseCopyrightImageButtonWndProc.cpp">
+      <Filter>소스 파일\CopyrightWndProcs</Filter>
+    </ClCompile>
+    <ClCompile Include="Source and Header\CopyrightWndProc.cpp">
+      <Filter>소스 파일\CopyrightWndProcs</Filter>
+    </ClCompile>
+    <ClCompile Include="Source and Header\MakerLogoImageWndProc.cpp">
+      <Filter>소스 파일\CopyrightWndProcs</Filter>
+    </ClCompile>
+    <ClCompile Include="Source and Header\ProgramLogoImageWndProc.cpp">
+      <Filter>소스 파일\CopyrightWndProcs</Filter>
+    </ClCompile>
+    <ClCompile Include="Source and Header\NotifyIconDataCall.cpp">
+      <Filter>소스 파일\Shell Related Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="Source and Header\OpenFileNameDialogCall.cpp">
+      <Filter>소스 파일\FileHandling Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="Source and Header\CustomButtonImageDoubleBuffering.cpp">
+      <Filter>소스 파일\Graphic Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="Source and Header\WndLayerTransparentOnOff.cpp">
+      <Filter>소스 파일\Graphic Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="Source and Header\MciClose.cpp">
+      <Filter>소스 파일\MCI Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="Source and Header\MciGetPlayPosition.cpp">
+      <Filter>소스 파일\MCI Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="Source and Header\MciGetVolume.cpp">
+      <Filter>소스 파일\MCI Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="Source and Header\MciOpen.cpp">
+      <Filter>소스 파일\MCI Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="Source and Header\MciPlay.cpp">
+      <Filter>소스 파일\MCI Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="Source and Header\MciSetPlayPositionSelectToScroll.cpp">
+      <Filter>소스 파일\MCI Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="Source and Header\MciSetVolume.cpp">
+      <Filter>소스 파일\MCI Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="Source and Header\SetScrollValueUseMaxFunction.cpp">
+      <Filter>소스 파일\MCI Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="Source and Header\SetScrollValueUseMinFunction.cpp">
+      <Filter>소스 파일\MCI Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="Source and Header\PlayTimePrintStatic.cpp">
+      <Filter>소스 파일\MCI Play Related Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="Source and Header\StateChangeToPlayOrPause.cpp">
+      <Filter>소스 파일\MCI Play Related Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="Source and Header\AddListImageButtonWndProc.cpp">
+      <Filter>소스 파일\PlayListWndProcs</Filter>
+    </ClCompile>
+    <ClCompile Include="Source and Header\AllDeleteImageButtonWndProc.cpp">
+      <Filter>소스 파일\PlayListWndProcs</Filter>
+    </ClCompile>
+    <ClCompile Include="Source and Header\ClosePlayListImageButtonWndProc.cpp">
+      <Filter>소스 파일\PlayListWndProcs</Filter>
+    </ClCompile>
+    <ClCompile Include="Source and Header\DeleteListImageButtonWndProc.cpp">
+      <Filter>소스 파일\PlayListWndProcs</Filter>
+    </ClCompile>
+    <ClCompile Include="Source and Header\LoadListImageButtonWndProc.cpp">
+      <Filter>소스 파일\PlayListWndProcs</Filter>
+    </ClCompile>
+    <ClCompile Include="Source and Header\PlayListWndProc.cpp">
+      <Filter>소스 파일\PlayListWndProcs</Filter>
+    </ClCompile>
+    <ClCompile Include="Source and Header\SaveListImageButtonWndProc.cpp">
+      <Filter>소스 파일\PlayListWndProcs</Filter>
+    </ClCompile>
+    <ClCompile Include="Source and Header\WrapperMusicFilePlayFuction.cpp">
+      <Filter>소스 파일\Wrapper Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="Source and Header\FloatingPopupMenuCall.cpp">
+      <Filter>소스 파일\Menu Related Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="Source and Header\CreateChildButton.cpp">
+      <Filter>소스 파일\Temporary Functions</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source and Header\Headers\HeaderCollect.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Source and Header\Headers\VariableCollect.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Source and Header\Headers\WndProcs\CopyrightWndProcs.h">
+      <Filter>헤더 파일\WndProcs</Filter>
+    </ClInclude>
+    <ClInclude Include="Source and Header\Headers\WndProcs\MainWndProcs.h">
+      <Filter>헤더 파일\WndProcs</Filter>
+    </ClInclude>
+    <ClInclude Include="Source and Header\Headers\WndProcs\PlayListWndProcs.h">
+      <Filter>헤더 파일\WndProcs</Filter>
+    </ClInclude>
+    <ClInclude Include="Source and Header\Headers\Functions\FileHandlingFunctions.h">
+      <Filter>헤더 파일\Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="Source and Header\Headers\Functions\GraphicFunctions.h">
+      <Filter>헤더 파일\Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="Source and Header\Headers\Functions\MCIFunctions.h">
+      <Filter>헤더 파일\Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="Source and Header\Headers\Functions\MCIPlayRelatedFunctions.h">
+      <Filter>헤더 파일\Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="Source and Header\Headers\Functions\MenuRelatedFunctions.h">
+      <Filter>헤더 파일\Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="Source and Header\Headers\Functions\ShellRelatedFunctions.h">
+      <Filter>헤더 파일\Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="Source and Header\Headers\Functions\TemporaryFunctions.h">
+      <Filter>헤더 파일\Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="Source and Header\Headers\Functions\WrapperFunctions.h">
+      <Filter>헤더 파일\Functions</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="MCI Player.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
